@@ -7,7 +7,126 @@
         "footer": "页脚",
         "contact": "联系我们",
         "about_us": "关于我们",
-        "contact_us": "联系我们"
+        "contact_us": "联系我们",
+        "replace": "替换"
+    },
+    "onboarding": {
+        "step_of": "第 {{current}} 步，共 {{total}} 步",
+        "brand_onboarding": "您的品牌 · 入职引导",
+        "continue": "继续",
+        "back": "返回",
+        "footer_secure": "您的数据已加密。在您批准之前，我们不会发布任何内容。",
+        "step1": {
+            "title_main": "首先，请问",
+            "title_italic": "您是？",
+            "subtitle": "告诉我们您的情况，以便个性化您的体验。",
+            "name_label": "全名",
+            "name_placeholder": "约翰·多伊",
+            "email_label": "工作邮箱",
+            "email_placeholder": "name@gmail.com",
+            "whatsapp_label": "WhatsApp 号码",
+            "whatsapp_placeholder": "+12 345 6789",
+            "whatsapp_optional": "可选 - 获取更快更新"
+        },
+        "step2": {
+            "title_main": "什么最能描述",
+            "title_italic": "您的业务？",
+            "subtitle": "选择最适合您的行业。",
+            "popular": "热门",
+            "agency": {
+                "title": "机构",
+                "desc": "管理多个客户的市场营销和创意机构"
+            },
+            "solopreneur": {
+                "title": "个人创业者",
+                "desc": "个人创作者、自由职业者和顾问"
+            },
+            "ecommerce": {
+                "title": "电子商务",
+                "desc": "在线商店、D2C 品牌和平台卖家"
+            },
+            "tech": {
+                "title": "科技公司",
+                "desc": "SaaS、软件公司和科技初创企业"
+            },
+            "small_biz": {
+                "title": "小型企业",
+                "desc": "当地企业、服务提供商和初创企业"
+            },
+            "enterprise": {
+                "title": "大型企业",
+                "desc": "拥有多个团队的大型组织"
+            }
+        },
+        "step3": {
+            "discovery_tag": "品牌发现",
+            "title_main": "让我们",
+            "title_italic": "了解您的品牌。",
+            "subtitle": "输入您的网站 URL — 我们的 AI 将读取它并构建您的品牌声调、颜色方案、主题和竞争对手地图。",
+            "company_name": "公司名称",
+            "company_name_placeholder": "发布利",
+            "website_url": "网站 URL",
+            "website_url_placeholder": "https://postily.com",
+            "magic_ingredient": "神奇配方",
+            "no_website": "我还没有网站",
+            "no_website_desc": "我们将改为询问几个简短的问题 — 全部为可选。",
+            "business_desc_label": "您的业务是做什么的？",
+            "business_desc_placeholder": "我们为 30 多岁、关注纯净成分的女性制作环保护肤品。",
+            "business_desc_info": "可选 - 1-2 句话",
+            "brand_voice": "品牌声调",
+            "brand_voice_info": "可选 - 最多选择 3 个",
+            "voices": ["专业", "友好", "大胆", "俏皮", "奢华", "随性", "权威", "温暖", "风趣", "极简", "其他.."],
+            "skip": "跳过此步",
+            "brand_colors": "品牌颜色",
+            "brand_colors_info": "可选 - 上传您的 Logo 或手动选择",
+            "upload_logo": "上传您的 Logo",
+            "upload_logo_types": "PNG, JPG, SVG - 我们将自动提取您的颜色",
+            "pick_manually": "或手动选择颜色：",
+            "primary": "主色",
+            "secondary": "辅助色",
+            "accent": "强调色",
+            "ideal_customer": "谁是您的理想客户？",
+            "ideal_customer_info": "可选 - 选择所有适用项",
+            "customers": ["年轻专业人士 (25-40)", "父母与家庭", "企业主", "学生与年轻人", "创作者与艺术家", "老年人 (50+)", "其他.."],
+            "instagram": "Instagram 账号",
+            "facebook": "Facebook 页面",
+            "optional": "可选",
+            "extract_info": "我们将从您的 URL 中自动提取：品牌描述、颜色方案、排版、内容主题、品牌声调和顶级竞争对手。",
+            "skipped": "已跳过",
+            "tell_us_more": "告诉我们更多...",
+            "audience_placeholder": "告诉我们更多关于您受众的信息...",
+            "optional_fields_notice": "以下内容均为可选。如果您不确定，请跳过。",
+            "selected": "已选择",
+            "pick_up_to_3": "可选 · 最多选择 3 个"
+        },
+        "step4": {
+            "goals_tag": "目标",
+            "title_main": "目标",
+            "title_italic": "是什么？",
+            "subtitle": "我们将根据此目标和节奏自动管理 Instagram + Facebook。",
+            "primary_goal": "主要目标",
+            "goals": [
+                {"title": "品牌知名度", "desc": "让更多人看到"},
+                {"title": "互动参与", "desc": "建立忠实社区"},
+                {"title": "潜客开发", "desc": "获取新潜在客户"},
+                {"title": "推动销售", "desc": "将粉丝转化为买家"}
+            ],
+            "frequency": "发布频率",
+            "freq_options": [
+                {"title": "每天", "desc": "每周 7 条"},
+                {"title": "每周 3 次", "desc": "最受欢迎"},
+                {"title": "每周一次", "desc": "每周 1 条"}
+            ],
+            "automation_footer": "我们将自动管理 Instagram + Facebook。发布后将提供更多渠道。",
+            "build_profile": "构建我的品牌档案"
+        },
+        "errors": {
+            "name_required": "全名必须至少包含 3 个字符",
+            "email_invalid": "请输入有效的电子邮件地址",
+            "whatsapp_invalid": "请输入有效的电话号码",
+            "company_required": "公司名称是必填项",
+            "url_invalid": "请输入有效的网站 URL（例如 https://example.com）"
+        }
     },
     "lang": {
         "en": "English",
@@ -20,10 +139,10 @@
         "return_home": "返回首页",
         "go_back": "返回上一页",
         "need_help": "需要导航帮助吗？",
-        "branding": "Postiz"
+        "branding": "postily"
     },
     "footer": {
-        "company_name": "Postiz AI 解决方案",
+        "company_name": "postily AI 解决方案",
         "company_desc": "利用 AI 驱动的营销和自动化客户支持解决方案赋能企业。我们彻底改变了品牌与受众互动的方式。",
         "nav_title": "快速链接",
         "contact_title": "联系我们",

@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "Postiz",
+        "brand": "postily",
         "branding_subtitle": "AI-Powered Marketing & Customer Support Team",
         "home": "Home",
         "about": "About Us",
@@ -9,7 +9,126 @@
         "contact": "Contact Us",
         "about_us": "About Us",
         "contact_us": "Contact Us",
-        "language": "Language"
+        "language": "Language",
+        "replace": "Replace"
+    },
+    "onboarding": {
+        "step_of": "STEP {{current}} OF {{total}}",
+        "brand_onboarding": "Your Brand · onboarding",
+        "continue": "Continue",
+        "back": "Back",
+        "footer_secure": "Your data is encrypted. We don't post anything until you approve.",
+        "step1": {
+            "title_main": "First, who are ",
+            "title_italic": "you?",
+            "subtitle": "Tell us about yourself to personalize your experience.",
+            "name_label": "Full name",
+            "name_placeholder": "John Doe",
+            "email_label": "Work email",
+            "email_placeholder": "name@gmail.com",
+            "whatsapp_label": "WhatsApp number",
+            "whatsapp_placeholder": "+12 345 6789",
+            "whatsapp_optional": "Optional - faster updates"
+        },
+        "step2": {
+            "title_main": "What best describes ",
+            "title_italic": "your business?",
+            "subtitle": "Select the industry that fits you best.",
+            "popular": "POPULAR",
+            "agency": {
+                "title": "Agency",
+                "desc": "Marketing & creative agencies managing multiple clients"
+            },
+            "solopreneur": {
+                "title": "Solopreneur",
+                "desc": "Individual creators, freelancers and consultants"
+            },
+            "ecommerce": {
+                "title": "E-commerce",
+                "desc": "Online stores, D2C brands, and marketplace sellers"
+            },
+            "tech": {
+                "title": "Tech Company",
+                "desc": "SaaS, software companies, and tech startups"
+            },
+            "small_biz": {
+                "title": "Small Business",
+                "desc": "Local businesses, service providers, and startups"
+            },
+            "enterprise": {
+                "title": "Enterprise",
+                "desc": "Large organizations with multiple teams"
+            }
+        },
+        "step3": {
+            "discovery_tag": "BRAND DISCOVERY",
+            "title_main": "Let's ",
+            "title_italic": "learn your brand.",
+            "subtitle": "Drop your website URL — our AI will read it and build your voice profile, palette, topics, and competitor map.",
+            "company_name": "Company name",
+            "company_name_placeholder": "e.g., Postily",
+            "website_url": "Website URL",
+            "website_url_placeholder": "https://postily.com",
+            "magic_ingredient": "The magic ingredient",
+            "no_website": "I don't have a website yet",
+            "no_website_desc": "We'll ask a few quick questions instead — all of them optional.",
+            "business_desc_label": "What does your business do?",
+            "business_desc_placeholder": "We make eco-friendly skincare for women in their 30s who care about clean ingredients.",
+            "business_desc_info": "Optional - 1-2 sentences",
+            "brand_voice": "Brand voice",
+            "brand_voice_info": "Optional - pick up to 3",
+            "voices": ["Professional", "Friendly", "Bold", "Playful", "Luxury", "Casual", "Authoritative", "Warm", "Witty", "Minimal", "Other.."],
+            "skip": "Skip this",
+            "brand_colors": "Brand colors",
+            "brand_colors_info": "Optional - upload your logo or pick manually",
+            "upload_logo": "Upload your logo",
+            "upload_logo_types": "PNG, JPG, SVG - we'll extract your colors automatically",
+            "pick_manually": "Or pick colors manually:",
+            "primary": "Primary",
+            "secondary": "Secondary",
+            "accent": "Accent",
+            "ideal_customer": "Who's your ideal customer?",
+            "ideal_customer_info": "Optional - pick all that apply",
+            "customers": ["Young professionals (25-40)", "Parents & families", "Business owners", "Students & young adults", "Creators & artists", "Older adults (50+)", "Other.."],
+            "instagram": "Instagram handle",
+            "facebook": "Facebook page",
+            "optional": "Optional",
+            "extract_info": "From your URL, we'll extract: brand description, color palette, typography, content topics, voice profile, and top competitors — automatically.",
+            "skipped": "Skipped",
+            "tell_us_more": "Tell us more...",
+            "audience_placeholder": "Tell us more about your audience...",
+            "optional_fields_notice": "Everything below is optional. Skip whatever you're not sure about.",
+            "selected": "selected",
+            "pick_up_to_3": "Optional · pick up to 3"
+        },
+        "step4": {
+            "goals_tag": "GOALS",
+            "title_main": "What's the ",
+            "title_italic": "point?",
+            "subtitle": "We'll automate Instagram + Facebook around this goal and cadence.",
+            "primary_goal": "Primary goal",
+            "goals": [
+                {"title": "Brand awareness", "desc": "Get seen by more people"},
+                {"title": "Engagement", "desc": "Build a loyal community"},
+                {"title": "Lead generation", "desc": "Capture new prospects"},
+                {"title": "Drive sales", "desc": "Convert followers to buyers"}
+            ],
+            "frequency": "Posting frequency",
+            "freq_options": [
+                {"title": "Daily", "desc": "7 posts / week"},
+                {"title": "3x per week", "desc": "Most popular"},
+                {"title": "Weekly", "desc": "1 post / week"}
+            ],
+            "automation_footer": "We'll automate Instagram + Facebook. More channels available after launch.",
+            "build_profile": "Build my brand profile"
+        },
+        "errors": {
+            "name_required": "Full name must be at least 3 characters",
+            "email_invalid": "Please enter a valid email address",
+            "whatsapp_invalid": "Please enter a valid phone number",
+            "company_required": "Company name is required",
+            "url_invalid": "Please enter a valid website URL (e.g., https://example.com)"
+        }
     },
     "lang": {
         "en": "English",
@@ -22,10 +141,10 @@
         "return_home": "Return Home",
         "go_back": "Go Back",
         "need_help": "Need help navigating?",
-        "branding": "Postiz"
+        "branding": "postily"
     },
     "footer": {
-        "company_name": "Postiz AI Solutions",
+        "company_name": "postily AI Solutions",
         "company_desc": "Empowering businesses with AI-driven marketing and automated customer support solutions. We revolutionize how brands interact with their audience.",
         "nav_title": "Quick Links",
         "contact_title": "Contact Us",

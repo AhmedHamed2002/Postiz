@@ -39,7 +39,7 @@ export default function LoadingSpinner() {
                 {/* Branding Text */}
                 <div className="flex flex-col items-center gap-3">
                     <h2 className="text-2xl font-black tracking-tighter text-slate-900 dark:text-white flex items-center gap-2">
-                        Postiz
+                        postily
                         <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400 animate-bounce" />
                     </h2>
                     <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-500 dark:text-slate-400 animate-pulse">

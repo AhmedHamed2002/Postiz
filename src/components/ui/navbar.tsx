@@ -166,8 +166,8 @@ export default function Navbar() {
          {/* Logo */}
         <div  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}  className="flex items-center justify-start h-12 w-48">
           <Image
-            src="/assets/images/logo.png"
-            alt="Postiz"
+            src="/assets/images/Postily-logo.png"
+            alt="postily"
             width={200}
             height={200}
             className="h-auto w-auto mt-2 -ms-4 sm:-ms-6 md:-ms-3 lg:ms-0 xl:-ms-12 cursor-pointer"
@@ -255,7 +255,7 @@ export default function Navbar() {
             </SheetTrigger>
             <SheetContent side={i18n.language === "ar" ? "left" : "right"} className="px-4 bg-slate-50 dark:bg-[#050a1e] border-none">
               <SheetHeader className="text-start mt-5 mb-8">
-                <SheetTitle className="text-2xl font-black text-[#212e64] dark:text-[#263985]">Postiz</SheetTitle>
+                <SheetTitle className="text-2xl font-black text-[#212e64] dark:text-[#263985]">postily</SheetTitle>
                 <SheetDescription className="text-slate-500 dark:text-slate-400">
                   {t("nav.branding_subtitle")}
                 </SheetDescription>

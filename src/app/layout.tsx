@@ -5,45 +5,45 @@ import { Providers } from "@/components/ui/providers";
 
 const siteUrl =
   process.env.NODE_ENV === "production"
-    ? "https://postiz.com"
+    ? "https://postily.com"
     : "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
-  title: "Postiz | AI-Powered Marketing & Customer Support Team",
+  title: "postily | AI-Powered Marketing & Customer Support Team",
   description:
-    "Postiz is an AI-powered marketing and customer communication platform that acts as an automated marketing and customer service department for your business. Automate content creation, media generation, social media publishing, and customer responses seamlessly.",
+    "postily is an AI-powered marketing and customer communication platform that acts as an automated marketing and customer service department for your business. Automate content creation, media generation, social media publishing, and customer responses seamlessly.",
 
   icons: {
     icon: "/assets/images/icon.png",
-    shortcut: "/assets/images/logo.png",
-    apple: "/assets/images/logo.png",
+    shortcut: "/assets/images/Postily-logo.png",
+    apple: "/assets/images/Postily-logo.png",
   },
 
   openGraph: {
-    title: "Postiz | AI-Powered Marketing & Customer Support Team",
+    title: "postily | AI-Powered Marketing & Customer Support Team",
     description:
-      "Transform your business with Postiz, the automated AI marketing and customer service platform. Generate content, media, and respond to customers automatically.",
+      "Transform your business with postily, the automated AI marketing and customer service platform. Generate content, media, and respond to customers automatically.",
     type: "website",
     url: siteUrl,
-    siteName: "Postiz",
+    siteName: "postily",
     images: [
       {
-        url: "/assets/images/logo.png",
+        url: "/assets/images/Postily-logo.png",
         width: 1200,
         height: 630,
-        alt: "Postiz Logo",
+        alt: "postily Logo",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Postiz | AI-Powered Marketing & Customer Support Team",
+    title: "postily | AI-Powered Marketing & Customer Support Team",
     description:
       "Automate your marketing and customer support with AI. Content creation, media generation, and social media publishing made simple.",
-    images: ["/assets/images/logo.png"],
+    images: ["/assets/images/Postily-logo.png"],
   },
 };
 
